@@ -3,7 +3,7 @@ Image OCR using OpenCV and Tesseract in python
 
 Load in an image and OCR returns in file.txt
 
-Put the image in the same folder as opencv_tesseract.py
+Put the image in the same folder as opencv_tesseract.py or enter to full path and the image filename of the image
 
 
 ##  Install tesseract
