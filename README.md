@@ -1,4 +1,7 @@
 # opencv_pytesserect
+Image OCR using OpenCV and Tesseract in python
+
+Load in an image and OCR returns in file.txt
 
 
 ##  Install tesseract
