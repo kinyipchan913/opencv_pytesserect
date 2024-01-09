@@ -3,6 +3,8 @@ Image OCR using OpenCV and Tesseract in python
 
 Load in an image and OCR returns in file.txt
 
+To load in different image, change 
+
 
 ##  Install tesseract
 https://github.com/UB-Mannheim/tesseract/wiki

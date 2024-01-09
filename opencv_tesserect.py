@@ -3,7 +3,9 @@ import cv2
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
-img = cv2.imread('uk_dronetheoreytest_result.png')
+image_file = input('Enter image filename: ')
+
+img = cv2.imread(image_file)
 img = cv2.medianBlur(img,3)
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # img_red = img[:,:,2]
